@@ -1,0 +1,1 @@
+http://lannv2-deploy-static-web.s3-website-us-east-1.amazonaws.com
