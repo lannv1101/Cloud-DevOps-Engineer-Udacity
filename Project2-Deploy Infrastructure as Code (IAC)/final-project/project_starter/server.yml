@@ -11,9 +11,6 @@ Parameters:
   InstanceType:
     Description: EC2 instance type
     Type: String
-  KeyPair:
-    Description: EC2 instance keypair
-    Type: String
 Resources:
   S3BucketRole:
     Type: AWS::IAM::Role
@@ -101,8 +98,6 @@ Resources:
       # ToDo: AMI ID of Ubuntu
       ImageId: !Ref AMItoUse
       IamInstanceProfile: !Ref S3BucketInstanceProfile
-      # ToDo: The key-pair name, as applicable to you.
-      KeyName: !Ref KeyPair
       SecurityGroups:
         - Ref: WebServerSecGroup
       InstanceType: !Ref InstanceType
