@@ -1,0 +1,18 @@
+[
+    {
+      "ParameterKey": "EnvironmentName",
+      "ParameterValue": "LanNV2UdacityProject"
+    },
+    {
+      "ParameterKey": "AMItoUse",
+      "ParameterValue": "ami-0261755bbcb8c4a84"
+    },
+    {
+      "ParameterKey": "InstanceType",
+      "ParameterValue": "t3.medium"
+    },
+    {
+      "ParameterKey": "KeyPair",
+      "ParameterValue": "server-project2-keypair"
+    }
+]
